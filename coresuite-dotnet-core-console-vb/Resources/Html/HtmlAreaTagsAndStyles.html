@@ -1,0 +1,424 @@
+<html>
+<head>
+<title>Simple Html Page</title>
+<LINK rel="stylesheet" type="text/css" href="style.css" media=all>
+
+<style type="text/css" rel="stylesheet">
+.thumbnail
+{
+float:left;
+width:110px;
+height:90px;
+margin:5px;
+}
+span.bold { font-weight: bold; }
+
+#Invoice
+{
+position: absolute;
+top: 3390pt;
+}
+
+.alignLeft {text-align: left;}
+.alignRight {text-align: right;}
+.alignCenter {text-align: center;}
+.alignJustify {text-align: justify;}
+.one {text-decoration: underline;}
+.two {text-decoration: overline;}
+.three {text-decoration: line-through;}
+.four {text-decoration: blink;}
+five {text-decoration: none;}
+.six {text-decoration: underline overline;}
+.seven {text-decoration: underline overline line-through;}
+.cap {text-transform: capitalize;}
+.upp {text-transform: uppercase;}
+.low {text-transform: lowercase;}
+.InvoiceRowcolor
+{
+background-color:rgb(0, 255, 255)
+}
+.InvoiceAlignRight
+{
+text-align:right;
+}
+table, th, td {
+    border: 1px solid black;
+}
+.InvoiceRowcolor
+{
+background-color:#E0E0FF
+}
+.InvoiceAlignRight
+{
+text-align:right;
+
+}
+#fontsize
+{
+font:16pt "Helvetica";
+}
+
+</style>
+</head>
+<body>
+<h2>HtmlArea Supports HTML 4.0 and CSS 2.1</h2>
+<H2><a name="C24">Contents</a> </H2>
+<ol>
+<li><a href="#ST1">Text properties with Backgroundimage</a></li>
+<li><a href="#LT1">List</a></li>
+<li><a href ="#EXL">External links</a></li>
+<li><a href="#TL1">Table</a></li>
+<li><a href="#HC1">Header Content</a></li>
+<li><a href="#IC1">Image gallery</a></li>
+<li><a href="#FEL">Form elements</a></li>
+<li><a href="#PS1">Position-zindex</a></li>
+<li><a href="#INV">Invoice report</a></li>
+</ol>
+<H3><a name="ST1">Text Properties</a></H3>
+<span class="one">
+Underlined.</span>
+<i class="two">
+Overlined.
+</i>
+<b class="three">
+Stricken text (linethrough).
+</b>
+<P class="seven">
+This sentence should be underlined, overlined, and stricken.
+</P>
+<P CLASS="cap">This paragraph is capitalized and the first letter in each word should therefore appear in uppercase.
+</P>
+<P CLASS="upp">This paragraph is uppercased and small characters in the source (e.g. a and &aring;) should therefore appear in uppercase.</SPAN>.
+</P>
+<P class="alignLeft">
+This sentence should be left-justified.
+</P>
+<P class="alignRight">
+This sentence should be right-justified.
+</P>
+<P class="alignCenter">
+This sentence should be centered.
+</P>
+<P class="alignJustify">
+This sentence should be  justified, which means that the right and left margins of this paragraph should line up, no matter how long the paragraph becomes; the exception, of course, is the last line, which should be left-justified in Western languages.
+</P>
+<p>The following text content is handling overflow.</p>
+<div style="background-image:url('../Images/img_tree.png');background-repeat:repeat;"><b style="font-size:40pt">T</b>homas Edison was born in Milan, Ohio, and grew up in Port Huron, Michigan. 
+Edison considered himself to be of Dutch ancestry.
+My mother was the making of me. She was so true, so sure of me; 
+and I felt I had something to live for, someone I must not disappoint." 
+ Much of his education came from reading R.G. 
+Parker's School of Natural Philosophy and The Cooper Union. Edison developed hearing 
+problems at an early age.The cause of his deafness has been attributed to a bout of 
+scarlet fever during childhood and recurring untreated middle ear infections. 
+. In his later years he modified the story to say the injury occurred when the 
+conductor, in helping him onto a moving train, lifted him by the ears. Edison's family was 
+forced to move to Port Huron, Michigan, when the railroad bypassed Milan in 1854,[7] but his life 
+there was bittersweet.Thomas Edison was born in Milan, Ohio, and grew up in Port Huron, Michigan. 
+Edison considered himself to be of Dutch ancestry.
+My mother was the making of me. She was so true, so sure of me; 
+and I felt I had something to live for, someone I must not disappoint.Edison considered himself to be of Dutch ancestry.
+My mother was the making of me. She was so true, so sure of me; 
+and I felt I had something to live for, someone I must not disappoint." 
+ </div>
+<h3><a name="LT1">List</a></h3>
+<ol>
+<li>Ordered Part 1</li>
+<li>Ordered Part 2
+   <ul type="square">
+   <li>Unordered Part A</li>
+   <li>Unordered Part B</li>
+      <ol type="A">
+      <li>Part I</li>
+      <li>Part II</li>
+				<ol type="I">
+					<li>Part a</li>
+					<li>Part b</li>
+					<ul>
+					<li>Unordered Part 11</li>
+					<li>Unordered Part 21</li>
+					<li>Unordered Part 31</li>			
+					</ul>					
+				</ol>
+		<li>Part III</li>
+      </ol>
+   <li>Unordered Part 3</li>
+   </ul>
+</li>
+<li>Ordered Part 3</li>
+</ol>
+<H3><a name="EXL">External Links</a></H3>
+<ol>
+<li><A href="https://www.w3schools.com/html/html_tables.asp" target=_blank>Tables</A></li>
+<li><A href="https://www.w3schools.com/" target=_blank>w3schools</A></li>
+<li><A href="https://www.w3schools.com/css/default.asp" target=_blank>CSS</A></li>
+</ol>
+<p><a href="#C24">TOP</a></p>
+<H3 style="page-break-before:always"><a name="TL1">Table</a></H3>
+
+<table border="1" bgcolor="#E0E0FF" cellspacing="0" cellpadding="0">
+  <tr>
+    <th>First name</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+	<th>Image</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+	<td><img src="../Images/DPDFLogo.png" alt="DPDFLogo" width="42" height="42"></td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+	<td><img src="../Images/DPDFLogo.png" alt="DPDFLogo" width="42" height="42"></td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+	<td><img src="../Images/DPDFLogo.png" alt="DPDFLogo" width="42" height="42"></td>
+  </tr>
+</table>
+<H3><a name="HC1"> Header Content</a></H3>
+<h1> H1 content</h1>
+<h2> H2 Content</h2>
+<h3> H3 Content</h3>
+<h4> H4 Content</h4>
+<h5> H5 Content</h5>
+<h6> H6 Content</h6>
+<br>
+<p><a href="#C24">TOP</a></p>
+<h3 style="page-break-before:always;"><a name="IC1">Image Gallery</a></h3>
+<div style="height: 160pt">
+<img class="thumbnail" src="../Images/klematis_small.jpg" width="107" height="90">
+<img class="thumbnail" src="../Images/klematis2_small.jpg" width="107" height="80">
+<img class="thumbnail" src="../Images/klematis3_small.jpg" width="116" height="90">
+<img class="thumbnail" src="../Images/klematis4_small.jpg" width="120" height="90">
+<img class="thumbnail" src="../Images/klematis3_small.jpg" width="116" height="90">
+<img class="thumbnail" src="../Images/klematis_small.jpg" width="107" height="90">
+<img class="thumbnail" src="../Images/klematis2_small.jpg" width="107" height="80">
+<img class="thumbnail" src="../Images/klematis3_small.jpg" width="116" height="90">
+<img class="thumbnail" src="../Images/klematis4_small.jpg" width="120" height="90">
+<img class="thumbnail" src="../Images/klematis3_small.jpg" width="116" height="90">
+</div>
+<H3> <a name="FEL"> Form Elements</a></H3>
+ <form>
+First name: <input type="text" name="FirstName" value="Mickey"><br>
+Last name: <input type="text" name="LastName" value="Mouse"><br>
+
+</form>
+
+<br>
+
+<form>
+  <input type="checkbox" name="vehicle" value="Bike"> I have a bike<br>
+  <input type="checkbox" name="vehicle" value="Car" checked> I have a car<br>
+  <input type="checkbox" name="vehicle" value="Boat"> I have a boat<br>
+</form>
+
+<form>
+  <label for="male">Male</label>
+  <input type="radio" name="sex" id="male" value="male" checked><br>
+  <label for="female">Female</label>
+  <input type="radio" name="sex" id="female" value="female"><br><br>
+</form>
+
+
+<form>
+<div>The following selection content is flattened</div>
+<select name="cars">
+  <option value="volvo">vehicle</option>
+  <option value="saab">bus</option>
+  <option value="mercedes">car</option>
+  <option value="audi">Innova</option>
+</select>
+</form>
+
+
+<form action="">
+Username: <input type="text" name="user">
+Password: <input type="password" name="password">
+<input type="submit" value="Submit">
+</form>
+<br/>
+<textarea rows="4" cols="50">
+This is textarea text with 4 rows, and 50 columns.
+This is textarea text with 4 rows, and 50 columns.
+This is textarea text with 4 rows, and 50 columns.
+This is textarea text with 4 rows, and 50 columns.
+</textarea>
+<p><a href="#C24">TOP</a></p>
+ <h3 style="page-break-before:always"> <a name="PS1">Stacking order in z-index</a> </h3>
+
+<div class="div1">
+<h1>DIV #1</h1>
+position: relative;<br/>
+ z-index: 1;<br/>
+</div>
+ <div class="div2">
+   <h1>DIV #2</h1>
+   position: absolute;<br/>
+   z-index: 2;<br/>
+  </div>
+ 
+<div class="div3">
+<h1>DIV #3</h1>
+position: relative;<br/>
+z-index: 3;
+</div>
+   <div class="div4">
+   <h1>DIV #4</h1>
+   position: absolute;<br>
+   z-index: 4;
+   </div>
+
+<p><a href="#C24">TOP</a></p>
+
+<div id="Invoice">
+<div style="width:250px; height:100px;float:left;">
+<img src="../Images/DPDFLogo.png" align="left" style="width:43pt;height:40pt"/>
+Northwind Traders<br/>
+1234 International Drive<br/>
+Anywhere, Earth AB<br/>
+</div>
+<div id="fontsize" class="InvoiceAlignRight" style="width:100px;float:right"><a name="INV">Invoice</a></div>
+<pre style="border:1px solid black; width:250px;height:72pt; float:right;clear:right;margin:0px;background-color:#E0E0FF">
+    Order ID : 10360
+  Order Date : 22 Nov 1996
+ Customer ID : BLONP
+Shipped Date : 2 Dec 1996
+ Shipped Via : Federal Shipping
+</pre>
+<div style="border:1px solid black; width:225px;position:absolute; top:121pt;left:28pt;">
+<div style="border-bottom:1px solid black;width:225px"><b>Bill To</b></div>
+Blondesddsl père et fils<br/>
+24, place Kléber<br/>
+Strasbourg, 67000<br/>
+France
+</div>
+<div style="border:1px solid black; width:225px;position:absolute; top:121pt;left:286pt;">
+<div style="border-bottom:1px solid black;width:225px"><b>Ship To</b></div>
+Blondesddsl père et fils<br/>
+24, place Kléber<br/>
+Strasbourg, 67000<br/>
+France
+</div>
+<table border="1" style="width:500pt;position:absolute;top:250pt;border-collapse:collapse">
+<tr>
+<th style="width:40pt;">Quantity</th>
+<th style="width:280pt">Description</th>
+<th style="width:70pt">Unit Price</th>
+<th style="width:70pt">Price</th>
+</tr>
+
+<tbody>
+<tr style="height:18pt;">
+<td class="InvoiceAlignRight">30</td>
+<td>Rössle Sauerkraut</td>
+<td class="InvoiceAlignRight">36.40</td>
+<td class="InvoiceAlignRight">1,092.00</td>
+</tr>
+<tr class="InvoiceRowcolor" style="height:18pt;">
+<td class="InvoiceAlignRight">35</td>
+<td>Thüringer Rostbratwurst</td>
+<td class="InvoiceAlignRight">99.00</td>
+<td class="InvoiceAlignRight">3,465.00</td>
+</tr>
+<tr style="height:18pt;">
+<td class="InvoiceAlignRight">10</td>
+<td>Côte de Blaye</td>
+<td class="InvoiceAlignRight">210.80</td>
+<td class="InvoiceAlignRight">2,108.00</td>
+</tr>
+<tr class="InvoiceRowcolor" style="height:18pt;">
+<td class="InvoiceAlignRight">35</td>
+<td>Maxilaku</td>
+<td class="InvoiceAlignRight">16.00</td>
+<td class="InvoiceAlignRight">560.00</td>
+</tr>
+<tr style="height:18pt;">
+<td class="InvoiceAlignRight">28</td>
+<td>Tourtière</td>
+<td class="InvoiceAlignRight">5.90</td>
+<td class="InvoiceAlignRight">165.20</td>
+</tr>
+<tr class="InvoiceRowcolor" style="height:18pt;">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr  style="height:18pt;">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="InvoiceRowcolor" style="height:18pt;">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr style="height:18pt;">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="InvoiceRowcolor" style="height:18pt;">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr style="height:18pt;">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="InvoiceRowcolor" style="height:18pt;">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr style="height:18pt;">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="InvoiceRowcolor" style="height:18pt;">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+
+<td colspan=2 rowspan=3 style="font-size:18pt; color:#000080">Thank you for your purchase.<br/>
+We appreciate your business.</td>
+<td>Sub Total</td>
+<td class="InvoiceAlignRight">7,390.20</td>
+</tr>
+<tr>
+<td>Freight</td>
+<td class="InvoiceAlignRight">131.70</td>
+</tr>
+<tr>
+<td>Total</td>
+<td class="InvoiceAlignRight">7,521.90</td>
+</tr>
+
+</tbody>
+</table>
+</div>
+<div style="position:absolute;top:4030pt"><a href="#C24">TOP</a></div>
+<b style="position:absolute;top:4050pt">Some of the content used in this example is from http://www.w3schools.com/</b>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<document version="1.2" xsi:schemaLocation="http://www.dynamicpdf.com http://www.dynamicpdf.com/schemas/DLEX12.xsd" xmlns="http://www.dynamicpdf.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Document1" author="" keywords="" title="" subject="">
+	<report dataName="" id="Report1" bottomMargin="72" leftMargin="72" rightMargin="72" topMargin="72">
+		<template id="Template1"/>
+		<header height="36" id="Header1">
+			<label fontSize="12" font="HelveticaBold" id="Label1" x="0" y="-58" width="468" height="50" align="center" text="Nortwind Traders&#xA;123 Main Street&#xA;Anywhere, Earth"/>
+			<rectangle id="Rectangle1" x="-72" y="-72" width="612" height="8" borderColor="tomato" borderWidth="0" fillColor="tomato"/>
+		</header>
+		<detail height="210" id="Detail1">
+			<recordArea font="Helvetica" fontSize="12" id="RecordArea1" x="1" y="-0.5" width="468" height="208" expandable="true">
+				<text>#Name#
+#Address#
+
+#Format(CurrentDateTime(),"dd MMM yyyy")#
+
+Dear #Name#,
+
+Thank you for your purchase. Your credit card has been charged #Amount#. Please let us know if you have any questions regarding this purchase.
+
+We value you as a customer.
+
+Sincerely,
+
+Northwind Traders</text>
+			</recordArea>
+		</detail>
+		<footer height="1" id="Footer1">
+			<pageNumberingLabel font="Helvetica" fontSize="9" id="PageNumberingLabel1" x="0" y="24" width="468" height="12" align="center" text="Page %%CP%%"/>
+			<rectangle id="Rectangle2" x="-72" y="64" width="612" height="8" borderColor="lightSalmon" borderWidth="0" fillColor="lightSalmon"/>
+		</footer>
+	</report>
+</document>
