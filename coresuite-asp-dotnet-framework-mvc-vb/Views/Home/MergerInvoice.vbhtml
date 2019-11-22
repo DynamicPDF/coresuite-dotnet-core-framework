@@ -1,9 +1,9 @@
-﻿
-@{
-    ViewBag.Title = "Invoice";
-    Layout = "~/Views/Shared/_DynamicPDFLayout.cshtml";
-}
-<form name="FormFill" action="CreateInvoice" method="post">
+﻿@Code
+    ViewData("Title") = "Merger Invoice"
+    Layout = "~/Views/Shared/_DynamicPDFLayout.vbhtml"
+End Code
+
+<form name="FormFill" action="CreateMergerInvoice" method="post">
     <h2>Select the invoices to include in the PDF.</h2>
     @Html.CheckBox("10248", false) @Html.Label("10248", "10248") <br />
     @Html.CheckBox("10249", false) @Html.Label("10249", "10249") <br />

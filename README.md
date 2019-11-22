@@ -1,7 +1,7 @@
 # DynamicPDF Core Suite (Generator, Merger and ReportWriter) for .NET Examples
 This project contains the console, ASP.NET Core and ASP.NET Framwork example files for DynamicPDF Core Suite (Generator, Merger and ReportWriter).
 
-Cross platform Xamarin, iOS, Android and UWP examples can be found in this project:
+Cross platform Xamarin, iOS, Android and UWP examples can be found in this project:  
 [DynamicPDF Core Suite for .NET Cross Platform Examples](https://github.com/dynamicpdf/coresuite-dotnet-cross-platform)
 
 ## Database

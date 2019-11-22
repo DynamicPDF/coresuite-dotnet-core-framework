@@ -5,7 +5,7 @@
     Layout = "~/Views/Shared/_DynamicPDFLayout.cshtml";
 }
 <h2>Create US Envelope</h2>
-<form action="CreateEnvelope" method="post" target="_blank">
+<form action="CreateEnvelope" method="post">
     <table border=0>
         <tr><td colspan=2><b>From Address:</b></td></tr>
         <tr><td>Name:</td><td>@Html.TextBoxFor(m => m.FromAddress.Name)</td></tr>

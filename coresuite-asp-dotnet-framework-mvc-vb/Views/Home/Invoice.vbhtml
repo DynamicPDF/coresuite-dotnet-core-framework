@@ -1,8 +1,8 @@
-﻿
-@{
-    ViewBag.Title = "Invoice";
-    Layout = "~/Views/Shared/_DynamicPDFLayout.cshtml";
-}
+﻿@Code
+    ViewData("Title") = "Invoice"
+    Layout = "~/Views/Shared/_DynamicPDFLayout.vbhtml"
+End Code
+
 <form name="FormFill" action="CreateInvoice" method="post">
     <h2>Select the invoices to include in the PDF.</h2>
     @Html.CheckBox("10248", false) @Html.Label("10248", "10248") <br />

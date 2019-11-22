@@ -1,8 +1,7 @@
-﻿
-@{
-    ViewBag.Title = "Home Page";
-    Layout = "~/Views/Shared/_DynamicPDFLayout.cshtml";
-}
+﻿@Code
+    ViewData("Title") = "Index"
+    Layout = "~/Views/Shared/_DynamicPDFLayout.vbhtml"
+End Code
 
 <h2>DynamicPDF Generator for .NET</h2>
 <a target="_blank" href="/Home/Invoice" title="Invoice Example">Invoice Example</a><br />

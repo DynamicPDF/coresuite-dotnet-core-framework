@@ -1,4 +1,4 @@
-﻿Imports System.Web.Mvc
+Imports System.Web.Mvc
 Imports System.Web.Routing
 
 Public Class MvcApplication

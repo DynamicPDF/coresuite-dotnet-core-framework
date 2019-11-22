@@ -1,8 +1,7 @@
-﻿
-@{
-    ViewBag.Title = "Text Extraction";
-    Layout = "~/Views/Shared/_DynamicPDFLayout.cshtml";
-}
+﻿@Code
+    ViewData("Title") = "Text Extraction"
+    Layout = "~/Views/Shared/_DynamicPDFLayout.vbhtml"
+End Code
 
 <h2>Extract Text from a PDF</h2>
 
