@@ -1,0 +1,38 @@
+.div1,.div2,.div3,.div4
+{
+   height:150px;
+    width: 150px;
+	position:absolute;
+}
+.div1
+{
+  top:3700px;
+  left:130px;
+  z-index:1;
+  border: 1px dashed #990000;
+  background-color: #ff00dd;
+ }
+ .div2
+{
+  top:3800px;
+  left:210px;
+  z-index:2;
+  border: 1px dashed #990000;
+  background-color: #ffdd00;
+ }
+.div3
+{
+top:3900px;
+  left:290px;
+  z-index:3;
+  border: 1px dashed #990000;
+  background-color: #00dddd;
+ }
+ .div4
+{
+top:4000px;
+  left:370px;
+  border: 1px dashed #000099;
+  background-color: #ddddff;
+  z-index:4;
+}

@@ -1,26 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.29215.179
+VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coresuite-asp-dotnet-framework-mvc-cs", "coresuite-asp-dotnet-framework-mvc-cs\coresuite-asp-dotnet-framework-mvc-cs.csproj", "{33B8A57C-5D86-4EC0-8AA1-E22365804959}"
-EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "coresuite-asp-dotnet-framework-mvc-vb", "coresuite-asp-dotnet-framework-mvc-vb\coresuite-asp-dotnet-framework-mvc-vb.vbproj", "{8568C93B-9B2F-43C5-900E-FCCBF8788C6D}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "coresuite-dotnet-core-console-cs", "coresuite-dotnet-core-console-cs\coresuite-dotnet-core-console-cs.csproj", "{B1D0E076-A330-4739-B50B-158D0F862A1A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "coresuite-dotnet-standard-cs", "coresuite-dotnet-standard-cs\coresuite-dotnet-standard-cs.csproj", "{66F7BE59-0951-475A-A2D1-47247700A385}"
-EndProject
 Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "coresuite-dotnet-core-console-vb", "coresuite-dotnet-core-console-vb\coresuite-dotnet-core-console-vb.vbproj", "{E2DE2F63-3175-46B4-943A-9500BFC7C992}"
-EndProject
-Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "coresuite-dotnet-standard-vb", "coresuite-dotnet-standard-vb\coresuite-dotnet-standard-vb.vbproj", "{63ACF0DC-ACEE-4783-BC79-59FED9A15822}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "coresuite-asp-dotnet-core-mvc-cs", "coresuite-asp-dotnet-core-mvc-cs\coresuite-asp-dotnet-core-mvc-cs.csproj", "{5507D799-3B96-48C8-B793-CB1AF0D9EDA6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6C5DD385-47A1-44A3-B58C-BFC0EE10DAA0}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coresuite-dotnet-framework-console-cs", "coresuite-dotnet-framework-console-cs\coresuite-dotnet-framework-console-cs.csproj", "{24CB1293-C703-4C7D-893D-05B17E86774C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "coresuite-dotnet-framework-console-vb", "coresuite-dotnet-framework-console-vb\coresuite-dotnet-framework-console-vb.vbproj", "{6E1C7048-A616-4657-932C-1F979E8B2698}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,34 +22,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{33B8A57C-5D86-4EC0-8AA1-E22365804959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{33B8A57C-5D86-4EC0-8AA1-E22365804959}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{33B8A57C-5D86-4EC0-8AA1-E22365804959}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{33B8A57C-5D86-4EC0-8AA1-E22365804959}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8568C93B-9B2F-43C5-900E-FCCBF8788C6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8568C93B-9B2F-43C5-900E-FCCBF8788C6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8568C93B-9B2F-43C5-900E-FCCBF8788C6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8568C93B-9B2F-43C5-900E-FCCBF8788C6D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B1D0E076-A330-4739-B50B-158D0F862A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B1D0E076-A330-4739-B50B-158D0F862A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1D0E076-A330-4739-B50B-158D0F862A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1D0E076-A330-4739-B50B-158D0F862A1A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{66F7BE59-0951-475A-A2D1-47247700A385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{66F7BE59-0951-475A-A2D1-47247700A385}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{66F7BE59-0951-475A-A2D1-47247700A385}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{66F7BE59-0951-475A-A2D1-47247700A385}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E2DE2F63-3175-46B4-943A-9500BFC7C992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E2DE2F63-3175-46B4-943A-9500BFC7C992}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2DE2F63-3175-46B4-943A-9500BFC7C992}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2DE2F63-3175-46B4-943A-9500BFC7C992}.Release|Any CPU.Build.0 = Release|Any CPU
-		{63ACF0DC-ACEE-4783-BC79-59FED9A15822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{63ACF0DC-ACEE-4783-BC79-59FED9A15822}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{63ACF0DC-ACEE-4783-BC79-59FED9A15822}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{63ACF0DC-ACEE-4783-BC79-59FED9A15822}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5507D799-3B96-48C8-B793-CB1AF0D9EDA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5507D799-3B96-48C8-B793-CB1AF0D9EDA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5507D799-3B96-48C8-B793-CB1AF0D9EDA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5507D799-3B96-48C8-B793-CB1AF0D9EDA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24CB1293-C703-4C7D-893D-05B17E86774C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24CB1293-C703-4C7D-893D-05B17E86774C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24CB1293-C703-4C7D-893D-05B17E86774C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24CB1293-C703-4C7D-893D-05B17E86774C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E1C7048-A616-4657-932C-1F979E8B2698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E1C7048-A616-4657-932C-1F979E8B2698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E1C7048-A616-4657-932C-1F979E8B2698}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E1C7048-A616-4657-932C-1F979E8B2698}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

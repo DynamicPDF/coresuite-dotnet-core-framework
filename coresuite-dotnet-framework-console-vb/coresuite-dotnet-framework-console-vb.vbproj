@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6E1C7048-A616-4657-932C-1F979E8B2698}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <StartupObject>coresuite_dotnet_framework_console_vb.Module1</StartupObject>
+    <RootNamespace>coresuite_dotnet_framework_console_vb</RootNamespace>
+    <AssemblyName>coresuite-dotnet-framework-console-vb</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Console</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>coresuite-dotnet-framework-console-vb.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="ceTe.DynamicPDF.CoreSuite.NET" Version="10.*" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="generator\Aes256BitEncryption.vb" />
+    <Compile Include="generator\AllPageElements.vb" />
+    <Compile Include="generator\AltTextImage.vb" />
+    <Compile Include="generator\Calender.vb" />
+    <Compile Include="generator\Charting.vb" />
+    <Compile Include="generator\ContactList.vb" />
+    <Compile Include="generator\data\ContactListData.vb" />
+    <Compile Include="generator\data\GeneratorInvoiceData.vb" />
+    <Compile Include="generator\data\MailingLabelsData.vb" />
+    <Compile Include="generator\data\SimpleReportData.vb" />
+    <Compile Include="generator\data\TableReportData.vb" />
+    <Compile Include="generator\DigitalSignatures.vb" />
+    <Compile Include="generator\GeneratorInvoice.vb" />
+    <Compile Include="generator\HelloWorld.vb" />
+    <Compile Include="generator\HelloWorldLanguages.vb" />
+    <Compile Include="generator\HtmlAreaPDF.vb" />
+    <Compile Include="generator\HtmlLayoutPDF.vb" />
+    <Compile Include="generator\MailingLabels.vb" />
+    <Compile Include="generator\PackagePdf.vb" />
+    <Compile Include="generator\RC4128BitEncryption.vb" />
+    <Compile Include="generator\SimpleReport.vb" />
+    <Compile Include="generator\SimpleXMLReport.vb" />
+    <Compile Include="generator\TableReport.vb" />
+    <Compile Include="generator\TaggedPdf.vb" />
+    <Compile Include="generator\TaggedPdfWithStructureElements.vb" />
+    <Compile Include="generator\TiffToPdf.vb" />
+    <Compile Include="generator\TimeMachine.vb" />
+    <Compile Include="generator\TimeMachineTaggedPdf.vb" />
+    <Compile Include="generator\USEnvelope.vb" />
+    <Compile Include="generator\Watermark.vb" />
+    <Compile Include="merger\AcroFormFill.vb" />
+    <Compile Include="merger\data\MergerInvoiceData.vb" />
+    <Compile Include="merger\FieldLevelFlattening.vb" />
+    <Compile Include="merger\FormFieldReader.vb" />
+    <Compile Include="merger\FormFill.vb" />
+    <Compile Include="merger\FormFlattening.vb" />
+    <Compile Include="merger\MergePDFs.vb" />
+    <Compile Include="merger\MergerInvoice.vb" />
+    <Compile Include="merger\PlacePDFs.vb" />
+    <Compile Include="merger\SelectPages.vb" />
+    <Compile Include="merger\StampPDF.vb" />
+    <Compile Include="merger\TextExtraction.vb" />
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="reportwriter\ContactListReport.vb" />
+    <Compile Include="reportwriter\ContactListWithGroupByReport.vb" />
+    <Compile Include="reportwriter\data\ContactListExampleData.vb" />
+    <Compile Include="reportwriter\data\ContactListWithGroupByExampleData.vb" />
+    <Compile Include="reportwriter\data\InvoiceExampleData.vb" />
+    <Compile Include="reportwriter\data\PlaceHolderExampleData.vb" />
+    <Compile Include="reportwriter\data\SimpleReportWithCoverPageExampleData.vb" />
+    <Compile Include="reportwriter\data\SimpleSubReportExampleData.vb" />
+    <Compile Include="reportwriter\data\W4Data.vb" />
+    <Compile Include="reportwriter\FormFillReport.vb" />
+    <Compile Include="reportwriter\FormLetterReport.vb" />
+    <Compile Include="reportwriter\InvoiceReport.vb" />
+    <Compile Include="reportwriter\PlaceHolderReport.vb" />
+    <Compile Include="reportwriter\SimpleReportWithCoverPage.vb" />
+    <Compile Include="reportwriter\SimpleSubReport.vb" />
+    <Compile Include="Util.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Resources\Data\HelloWorldExcel.xls" />
+    <None Include="Resources\DLEX\ContactList.dlex" />
+    <None Include="Resources\DLEX\ContactListWithGroupBy.dlex" />
+    <None Include="Resources\DLEX\FormFill.dlex" />
+    <None Include="Resources\DLEX\FormLetter.dlex" />
+    <None Include="Resources\DLEX\fw4-p1.pdf" />
+    <None Include="Resources\DLEX\Invoice.dlex" />
+    <None Include="Resources\DLEX\InvoiceTemplate.pdf" />
+    <None Include="Resources\DLEX\PlaceHolder.dlex" />
+    <None Include="Resources\DLEX\SimpleReportWithCoverPage.dlex" />
+    <None Include="Resources\DLEX\SimpleSubReport.dlex" />
+    <None Include="Resources\PDFs\DocumentA.pdf" />
+    <None Include="Resources\PDFs\DocumentB.pdf" />
+    <None Include="Resources\PDFs\DocumentC.pdf" />
+    <None Include="Resources\PDFs\DocumentD.pdf" />
+    <None Include="Resources\PDFs\fw9AcroForm_18_filled.pdf" />
+    <None Include="Resources\PDFs\fw9_18.pdf" />
+    <None Include="Resources\PDFs\Invoice.pdf" />
+    <None Include="Resources\PDFs\TimeMachine.pdf" />
+    <None Include="Resources\Data\ProductList.xml" />
+    <None Include="Resources\DLEX\Northwind Logo.gif" />
+    <None Include="Resources\Html\AllPageElementSample.html" />
+    <None Include="Resources\Html\HtmlAreaTagsAndStyles.html" />
+    <None Include="Resources\Html\HtmlTags.html" />
+    <None Include="Resources\Html\Products.html" />
+    <None Include="Resources\Html\style.css" />
+    <None Include="Resources\Images\ceTeSoftware_top.gif" />
+    <None Include="Resources\Images\DPDFLogo.png" />
+    <None Include="Resources\Images\DPDFLogo_Watermark.png" />
+    <None Include="Resources\Images\DynamicPDF_top.gif" />
+    <None Include="Resources\Images\fw9_18.tif" />
+    <None Include="Resources\Images\img_tree.png" />
+    <None Include="Resources\Images\klematis_small.jpg" />
+    <None Include="Resources\Images\klematis2_small.jpg" />
+    <None Include="Resources\Images\klematis3_small.jpg" />
+    <None Include="Resources\Images\klematis4_small.jpg" />
+    <None Include="Resources\Images\Northwind Logo.gif" />
+    <None Include="Resources\Text\Textdata.txt" />
+    <None Include="Resources\Text\TimeMachine_Chapter1.txt" />
+    <None Include="Resources\Text\TimeMachine_Chapter10.txt" />
+    <None Include="Resources\Text\TimeMachine_Chapter11.txt" />
+    <None Include="Resources\Text\TimeMachine_Chapter12.txt" />
+    <None Include="Resources\Text\TimeMachine_Chapter2.txt" />
+    <None Include="Resources\Text\TimeMachine_Chapter3.txt" />
+    <None Include="Resources\Text\TimeMachine_Chapter4.txt" />
+    <None Include="Resources\Text\TimeMachine_Chapter5.txt" />
+    <None Include="Resources\Text\TimeMachine_Chapter6.txt" />
+    <None Include="Resources\Text\TimeMachine_Chapter7.txt" />
+    <None Include="Resources\Text\TimeMachine_Chapter8.txt" />
+    <None Include="Resources\Text\TimeMachine_Chapter9.txt" />
+    <None Include="Resources\Text\TimeMachine_Epilogue.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
