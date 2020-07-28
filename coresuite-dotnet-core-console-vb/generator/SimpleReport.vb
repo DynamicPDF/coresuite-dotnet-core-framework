@@ -1,7 +1,5 @@
-﻿Imports System.Data.SqlClient
-Imports ceTe.DynamicPDF
+﻿Imports ceTe.DynamicPDF
 Imports ceTe.DynamicPDF.PageElements
-Imports Microsoft.Extensions.Configuration
 
 Public Class SimpleReport
 

@@ -1,8 +1,7 @@
-﻿using ceTe.DynamicPDF;
-using ceTe.DynamicPDF.PageElements;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
+using ceTe.DynamicPDF;
+using ceTe.DynamicPDF.PageElements;
 
 namespace coresuite_dotnet_core_console_cs.generator
 {

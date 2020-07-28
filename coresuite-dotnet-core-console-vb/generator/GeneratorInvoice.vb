@@ -1,8 +1,6 @@
 ﻿Imports ceTe.DynamicPDF
 Imports ceTe.DynamicPDF.PageElements
 Imports ceTe.DynamicPDF.PageElements.BarCoding
-Imports Microsoft.Extensions.Configuration
-Imports System.Data.SqlClient
 
 Public Class GeneratorInvoice
 

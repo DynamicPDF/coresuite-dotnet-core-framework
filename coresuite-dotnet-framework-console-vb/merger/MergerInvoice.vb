@@ -1,10 +1,7 @@
-﻿Imports System.Configuration
-Imports System.Data.SqlClient
-Imports ceTe.DynamicPDF
+﻿Imports ceTe.DynamicPDF
 Imports ceTe.DynamicPDF.Merger
 Imports ceTe.DynamicPDF.PageElements
 Imports ceTe.DynamicPDF.PageElements.BarCoding
-Imports Microsoft.Extensions.Configuration
 
 Public Class MergerInvoice
     Public Shared order As List(Of MergerInvoiceData.Order) = MergerInvoiceData.Orders

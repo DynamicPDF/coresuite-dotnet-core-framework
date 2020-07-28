@@ -1,8 +1,5 @@
-﻿Imports System.Data.SqlClient
-Imports Microsoft.Extensions.Configuration
-Imports ceTe.DynamicPDF
+﻿Imports ceTe.DynamicPDF
 Imports ceTe.DynamicPDF.PageElements
-Imports System.Configuration
 
 Public Class TableReport
 

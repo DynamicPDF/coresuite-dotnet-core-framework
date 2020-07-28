@@ -1,6 +1,5 @@
 ﻿Imports System.IO
 Imports System.Text.RegularExpressions
-Imports Microsoft.Extensions.Configuration
 
 Public Class Util
     ' This is a helper function to get a full path to a file in the Resources folder.
