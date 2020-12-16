@@ -52,7 +52,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="ceTe.DynamicPDF.CoreSuite.NET" Version="10.*" />
+    <PackageReference Include="ceTe.DynamicPDF.CoreSuite.NET" Version="11.*" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="generator\Aes256BitEncryption.vb" />
