@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<document xsi:schemaLocation="http://www.dynamicpdf.com http://www.dynamicpdf.com/schemas/DLEX12.xsd" version="1.2" xmlns="http://www.dynamicpdf.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Document1" author="" keywords="" title="" subject="">
+<document xsi:schemaLocation="http://www.dynamicpdf.com http://www.dynamicpdf.com/schemas/DLEX12.xsd" version="2.0" xmlns="http://www.dynamicpdf.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Document1" author="" keywords="" title="" subject="">
 	<report dataName="ProductsByCategory" id="Report1">
 		<template id="Template1"/><header height="36" id="Header">
 			<label font="TimesBold" fontSize="11" id="Label1" x="2" y="23" width="236" height="11" text="Product Name"/>

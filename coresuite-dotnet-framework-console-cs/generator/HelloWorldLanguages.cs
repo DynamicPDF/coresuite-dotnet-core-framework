@@ -23,8 +23,8 @@ namespace coresuite_dotnet_framework_console_cs.Generator
             Font latin1Font = Font.TimesRoman;
             Font unicodeFont = new OpenTypeFont("times.ttf");
 
-            Font unicodeFont1 = new OpenTypeFont("micross.ttf", true);
-            Font InFont = new OpenTypeFont("Nirmala.ttf", true);
+            Font unicodeFont1 = new OpenTypeFont("micross.ttf");
+            Font InFont = new OpenTypeFont("Nirmala.ttf");
 
             // Create a page to add to the document
             Page page = new Page(PageSize.Letter, PageOrientation.Portrait, 54.0f);

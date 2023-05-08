@@ -1,4 +1,4 @@
-<document version="1.2" xsi:schemaLocation="http://www.dynamicpdf.com http://www.dynamicpdf.com/schemas/DLEX12.xsd" xmlns="http://www.dynamicpdf.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="SimpleReport" author="" keywords="" title="" subject="">
+<document version="2.0" xsi:schemaLocation="http://www.dynamicpdf.com http://www.dynamicpdf.com/schemas/DLEX12.xsd" xmlns="http://www.dynamicpdf.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="SimpleReport" author="" keywords="" title="" subject="">
 	<report dataName="Websites" id="Report1">
 		<template id="Template1"/>
 		<header height="18" id="Header">

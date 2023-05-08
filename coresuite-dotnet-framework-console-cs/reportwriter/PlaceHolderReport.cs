@@ -41,7 +41,7 @@ namespace coresuite_dotnet_framework_console_cs.ReportWriter
 
             // Add the barcode and a link to the placeholder's content area
             e.ContentArea.Add(qrCode);
-            e.ContentArea.Add(new Link(0, 0, qrCode.GetSymbolWidth(), qrCode.GetSymbolHeight(), new UrlAction(url)));
+            e.ContentArea.Add(new ceTe.DynamicPDF.PageElements.Link(0, 0, qrCode.GetSymbolWidth(), qrCode.GetSymbolHeight(), new UrlAction(url)));
         }
     }
 }

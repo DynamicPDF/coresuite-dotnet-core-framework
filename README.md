@@ -8,7 +8,7 @@ For compatibility, this project is set to .NET Core v2.1. You can change this to
 For compatibility, this project is set to .NET Core v2.1. You can change this to the version you are using including v3.X or .NET 5.0.
 
 ## coresuite-dotnet-framework-console-cs Project
-For compatibility, this project is set to .NET Framework v4.5. You can change this to a higher version.
+For compatibility, this project is set to .NET Framework v4.6.2. You can change this to a higher version.
 
 ## coresuite-dotnet-framework-console-cs Project
-For compatibility, this project is set to .NET Framework v4.5. You can change this to a higher version.
+For compatibility, this project is set to .NET Framework v4.6.2. You can change this to a higher version.

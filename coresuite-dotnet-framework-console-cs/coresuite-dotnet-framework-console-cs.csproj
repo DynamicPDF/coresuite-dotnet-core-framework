@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>coresuite_dotnet_framework_console_cs</RootNamespace>
     <AssemblyName>coresuite-dotnet-framework-console-cs</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -48,7 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="ceTe.DynamicPDF.CoreSuite.NET" Version="11.*" />
+    <PackageReference Include="ceTe.DynamicPDF.CoreSuite.NET" Version="12.*" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="generator\Aes256BitEncryption.cs" />

@@ -33,11 +33,11 @@ Public Class PlaceHolderReport
         Dim url As String = e.LayoutWriter.Data("Url").ToString()
 
         ' Create a barcode page element from the data and set its properties
-        Dim qrCode As QrCode = New QrCode(url, 0, 0, 2)
+        Dim qrCode As ceTe.DynamicPDF.PageElements.BarCoding.QrCode = New ceTe.DynamicPDF.PageElements.BarCoding.QrCode(url, 0, 0, 2)
 
         ' Add the image to the placeholder's content area
         e.ContentArea.Add(qrCode)
-        e.ContentArea.Add(New Link(0, 0, qrCode.GetSymbolWidth(), qrCode.GetSymbolHeight(), New UrlAction(url)))
+        e.ContentArea.Add(New ceTe.DynamicPDF.PageElements.Link(0, 0, qrCode.GetSymbolWidth(), qrCode.GetSymbolHeight(), New UrlAction(url)))
     End Sub
 End Class
 

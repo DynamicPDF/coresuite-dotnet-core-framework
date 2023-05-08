@@ -1,7 +1,6 @@
 using ceTe.DynamicPDF;
 using ceTe.DynamicPDF.LayoutEngine;
 using ceTe.DynamicPDF.LayoutEngine.LayoutElements;
-using ceTe.DynamicPDF.PageElements;
 using ceTe.DynamicPDF.PageElements.BarCoding;
 
 namespace coresuite_dotnet_core_console_cs.reportwriter
@@ -41,7 +40,7 @@ namespace coresuite_dotnet_core_console_cs.reportwriter
 
             // Add the barcode and a link to the placeholder's content area
             e.ContentArea.Add(qrCode);
-            e.ContentArea.Add(new Link(0, 0, qrCode.GetSymbolWidth(), qrCode.GetSymbolHeight(), new UrlAction(url)));
+            e.ContentArea.Add(new ceTe.DynamicPDF.PageElements.Link(0, 0, qrCode.GetSymbolWidth(), qrCode.GetSymbolHeight(), new UrlAction(url)));
         }
     }
 }

@@ -1,4 +1,4 @@
-<document version="1.2" xsi:schemaLocation="http://www.dynamicpdf.com http://www.dynamicpdf.com/schemas/DLEX12.xsd" xmlns="http://www.dynamicpdf.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="ContactList" author="" keywords="" title="" subject="">
+<document version="2.0" xsi:schemaLocation="http://www.dynamicpdf.com http://www.dynamicpdf.com/schemas/DLEX12.xsd" xmlns="http://www.dynamicpdf.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="ContactList" author="" keywords="" title="" subject="">
 	<report dataName="Contacts" id="ContactListReport" bottomMargin="36" leftMargin="36" rightMargin="36" topMargin="36" pageOrientation="landscape">
 		<template id="Template1"/><header height="74" id="Header">
 			<rectangle id="Rectangle1" x="0" y="56" width="720" height="16" borderWidth="0" fillColor="#0000A0"/>

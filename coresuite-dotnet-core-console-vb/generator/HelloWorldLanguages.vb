@@ -18,8 +18,8 @@ Public Class HelloWorldLanguages
         Dim Latin1Font As Font = Font.TimesRoman
         Dim UnicodeFont As Font = New OpenTypeFont("times.ttf")
 
-        Dim unicodeFont1 As Font = New OpenTypeFont("micross.ttf", True)
-        Dim InFont As Font = New OpenTypeFont("Nirmala.ttf", True)
+        Dim unicodeFont1 As Font = New OpenTypeFont("micross.ttf")
+        Dim InFont As Font = New OpenTypeFont("Nirmala.ttf")
 
         ' Create a page to add to the document
         Dim MyPage As Page = New Page(PageSize.Letter, PageOrientation.Portrait, 54.0F)
