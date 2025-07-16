@@ -1,3 +1,5 @@
+If you are looking for the examples from documentation or from the examples on the dynamicpdf.com website, you should go to this project: https://github.com/DynamicPDF/examples-dynamicpdf-core-suite-dotnet-core
+
 # DynamicPDF Core Suite (Generator, Merger and ReportWriter) for .NET Examples
 This project contains DynamicPDF Core Suite (Generator, Merger and ReportWriter) console examples for C# and Visual Basic .NET for .NET Core and the .NET Framework.
 
